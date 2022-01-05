@@ -2,8 +2,8 @@ cmake_minimum_required(VERSION 3.21) #cmake 최소버전
 project(hello_world VERSION 1.0.0) #프로젝트 이름, 버전
 
 add_library(
-    say-hello
-    hello.hpp
+    say-hello  #라이브러리 이름
+    hello.hpp  #라이브러리로 만들 소스파일
     hello.cpp
 ) #라이브러리 생성
 
